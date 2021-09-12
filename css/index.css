@@ -66,17 +66,17 @@
     border: 2px solid rgb(0, 0, 0);
     margin-left: 10%;
     margin-top: 10%;
-    color: yellow;
+    color: rgb(0, 0, 0);
 }
 
 .portfolio-1-mask,
 .portfolio-2-mask,
-.work3-overlay,
-.work4-overlay,
-.work5-overlay,
-.work6-overlay,
-.work7-overlay,
-.work8-overlay {
+.portfolio-3-mask,
+.portfolio-4-mask,
+.portfolio-5-mask,
+.portfolio-6-mask,
+.portfolio-7-mask,
+.portfolio-8-mask{
     display: none;
     background-color: rgb(119, 98, 98,0.5);
     position: absolute;

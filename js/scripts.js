@@ -27,4 +27,34 @@ $(document).ready(function () {
     }).mouseout(function () {
         $('.portfolio-2-mask').hide();
     });
+    $('.portfolio-3').mouseover(function () {
+        $('.portfolio-3-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-3-mask').hide();
+    });
+    $('.portfolio-4').mouseover(function () {
+        $('.portfolio-4-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-4-mask').hide();
+    });
+    $('.portfolio-5').mouseover(function () {
+        $('.portfolio-5-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-5-mask').hide();
+    });
+    $('.portfolio-6').mouseover(function () {
+        $('.portfolio-6-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-6-mask').hide();
+    });
+    $('.portfolio-7').mouseover(function () {
+        $('.portfolio-7-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-7-mask').hide();
+    });
+    $('.portfolio-8').mouseover(function () {
+        $('.portfolio-8-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-8-mask').hide();
+    });
 });
