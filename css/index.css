@@ -1,17 +1,29 @@
-.welcome{
+.welcome {
     padding-top: 22%;
     background-image: url(../img/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     min-height: 100vh;
     text-align: center;
-    
+
 }
-h1{
+
+.welcome h1 {
     font-size: 3rem;
 }
-.mouse-img{
+
+.mouse-img {
     padding-top: 14%;
     padding-bottom: 3%;
+}
+
+.about {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
 }
