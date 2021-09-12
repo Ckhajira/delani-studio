@@ -1,13 +1,17 @@
 .welcome{
-    padding-top: 13.5%;
+    padding-top: 22%;
     background-image: url(../img/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     
 }
 h1{
     font-size: 3rem;
+}
+.mouse-img{
+    padding-top: 14%;
+    padding-bottom: 3%;
 }
