@@ -11,10 +11,15 @@ $(document).ready(function () {
     $(".development-text").click(function () {
         $(".development-image, .development-text").toggle();
     })
-    $(".product-management-image").click(function(){
+    $(".product-management-image").click(function () {
         $(".product-management-text, .product-management-image").toggle();
     })
-    $(".product-management-text").click(function(){
+    $(".product-management-text").click(function () {
         $(".product-management-image, .product-management-text").toggle();
     })
+    $('.portfolio-1').mouseover(function () {
+        $('.portfolio-1-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-1-mask').hide();
+    });
 });
