@@ -63,14 +63,14 @@
 .hover-details {
     width: 80%;
     height: 80%;
-    border: 2px solid #fff;
+    border: 2px solid rgb(0, 0, 0);
     margin-left: 10%;
     margin-top: 10%;
-    color: white;
+    color: yellow;
 }
 
 .portfolio-1-mask,
-.work2-overlay,
+.portfolio-2-mask,
 .work3-overlay,
 .work4-overlay,
 .work5-overlay,
@@ -78,8 +78,7 @@
 .work7-overlay,
 .work8-overlay {
     display: none;
-    background-color: black;
-    opacity: 0.7;
+    background-color: rgb(119, 98, 98,0.5);
     position: absolute;
     top: 0;
     bottom: 0;

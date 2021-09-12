@@ -22,4 +22,9 @@ $(document).ready(function () {
     }).mouseout(function () {
         $('.portfolio-1-mask').hide();
     });
+    $('.portfolio-2').mouseover(function () {
+        $('.portfolio-2-mask').show();
+    }).mouseout(function () {
+        $('.portfolio-2-mask').hide();
+    });
 });
