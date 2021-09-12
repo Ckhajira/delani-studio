@@ -20,7 +20,7 @@ The site consists of seven sections. This includes the Welcome Section, About Se
 This project uses HTML, CSS, Bootstrap, JavaScript and Jquery.
 
 ## Project Design
-![](img/ Delani Studio.jpg)
+![](img/design.jpg)
 
 ## Support and contact details
 If you have any issues or questions, you can get intouch with me through email: christopher.khajira@student.moringaschool.com. Please feel free to make any contributions to the code.
