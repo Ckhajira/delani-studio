@@ -77,12 +77,80 @@
 .portfolio-5-mask,
 .portfolio-6-mask,
 .portfolio-7-mask,
-.portfolio-8-mask{
+.portfolio-8-mask {
     display: none;
-    background-color: rgb(119, 98, 98,0.5);
+    background-color: rgb(119, 98, 98, 0.5);
     position: absolute;
     top: 0;
     bottom: 0;
     width: 90%;
 
+}
+
+.contact-us-header {
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.contact {
+    background-image: url(../img/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 683px;
+    background-repeat: no-repeat;
+}
+.button{
+    background-color: yellowgreen;
+    height: 40px;
+    margin-left: 250px;
+}
+.input {
+    display: inline;
+    width: 50px;
+
+}
+
+.contact input {
+    width: 70px;
+    background-color: transparent;
+
+}
+
+#name {
+    margin-left: 20%;
+    color: white;
+    background-color: transparent;
+    width: 420px;
+}
+
+#email {
+    margin-left: 5%;
+    color: white;
+    background-color: transparent;
+    width: 420px;
+}
+
+
+.text-area{
+    background-color: transparent;
+    margin-left: 20%;
+}
+
+#email::placeholder {
+    color: white;
+    
+}
+
+#name::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+btn{
+    margin-left: 190px;
+    padding: 10px;
+    background-color: yellowgreen;
 }
