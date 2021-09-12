@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    $(".design").click(function () {
-        $("#design, .design").toggle("slow");
+    $(".design-image").click(function () {
+        $(".design-text, .design-image").toggle();
     });
-    $("#design").click(function () {
-        $(".design, #design").toggle("slow");
+    $(".design-text").click(function () {
+        $(".design-image, .design-text").toggle();
     });
-    
+
 });
