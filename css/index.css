@@ -38,6 +38,11 @@
     line-height: 45px;
     background-repeat: no-repeat;
 }
-.what-we-do{
+
+.what-we-do {
     padding-top: 5%;
+}
+
+#design {
+    display: none;
 }
